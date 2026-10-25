@@ -47,6 +47,9 @@ list5=(23,34,45,55)
 a,b,c,d=list5
 print(a+b+c+d) #output 157
 
+#by built in function
+print(sum(list5))    #output =157
+
 #4-- write a program to count the number of zero in a tuple 
 tuple2=(23,34,0,0,0,0,6,67,0)
 print(tuple2.count(0))   #output=5
